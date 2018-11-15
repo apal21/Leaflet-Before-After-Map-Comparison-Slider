@@ -1,0 +1,39 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Cocoen Demo</title>
+	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+	<style>
+        body {
+            margin: 0;
+        }
+        .container {
+            height: 100vh;
+            width: 100vw;
+        }
+        .map {
+            height: 100%;
+        }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div id="before" class="map"></div>
+        <div id="after" class="map"></div>
+	</div>
+</body>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+    integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+    crossorigin=""></script>
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./js/beforeafter-map.js"></script>
+    <script src="./js/constants.js"></script>
+    <script src="./js/script.js"></script>
+</html>
